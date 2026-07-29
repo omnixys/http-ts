@@ -1,0 +1,36 @@
+{
+  "name": "@omnixys/http",
+  "version": "1.0.0",
+  "description": "Safe HTTP error envelopes and NestJS exception mapping for Omnixys services",
+  "type": "module",
+  "private": false,
+  "packageManager": "pnpm@10.33.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "prebuild": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\"",
+    "build": "tsc -p tsconfig.json",
+    "test": "pnpm run build && node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10 || ^11",
+    "@nestjs/core": "^10 || ^11",
+    "@omnixys/context": "^2 || ^3",
+    "@omnixys/contracts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^11.1.28",
+    "@nestjs/core": "^11.1.28",
+    "@omnixys/context": "link:../context",
+    "@omnixys/contracts": "link:../contracts",
+    "rxjs": "^7.8.2",
+    "typescript": "^5.9.3"
+  }
+}
