@@ -1,10 +1,10 @@
 import { HttpException } from "@nestjs/common";
-import { ContextAccessor } from "@omnixys/context";
+import { ContextAccessor } from "@omnixys/context-ts";
 import {
   FrameworkException,
   type FrameworkExceptionOptions,
   getErrorDefinition,
-} from "@omnixys/contracts";
+} from "@omnixys/contracts-ts";
 
 export class FrameworkHttpException extends HttpException {
   readonly domainError: FrameworkException;

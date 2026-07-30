@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { ContextAccessor } from "@omnixys/context";
-import { FrameworkException } from "@omnixys/contracts";
+import { ContextAccessor } from "@omnixys/context-ts";
+import { FrameworkException } from "@omnixys/contracts-ts";
 import { createHttpErrorResponse } from "../dist/index.js";
 
 test("HTTP errors expose only the public contract", () => {

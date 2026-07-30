@@ -1,10 +1,10 @@
 import { HttpException } from "@nestjs/common";
-import { ContextAccessor } from "@omnixys/context";
+import { ContextAccessor } from "@omnixys/context-ts";
 import {
   ErrorCode,
   getErrorDefinition,
   getPublicErrorMetadata,
-} from "@omnixys/contracts";
+} from "@omnixys/contracts-ts";
 
 export interface HttpErrorResponse {
   readonly statusCode: number;
