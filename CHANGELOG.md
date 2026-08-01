@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.1](https://github.com/omnixys/http-ts/compare/v1.0.0...v1.0.1) (2026-08-01)
+
+### Deps
+
+* **Deps:** update omnixs package deps ([](https://github.com/omnixys/http-ts/commit/3daba17107244fb273f4b7a47b1ad3505fd76885))
+
 ## 1.0.0 (2026-07-30)
 
 ### Ci
