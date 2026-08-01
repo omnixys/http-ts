@@ -21,11 +21,11 @@ importers:
         specifier: ^11.1.28
         version: 11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@omnixys/context-ts':
-        specifier: ^3.0.2
-        version: 3.0.2(@fastify/cookie@11.1.2)(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/graphql@13.4.2(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(graphql@16.14.2)(reflect-metadata@0.2.2))(@omnixys/contracts-ts@3.2.3(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2)))(fastify@5.11.0)(graphql@16.14.2)(rxjs@7.8.2)
+        specifier: ^3.1.1
+        version: 3.1.1(@fastify/cookie@11.1.2)(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/graphql@13.4.2(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(graphql@16.14.2)(reflect-metadata@0.2.2))(@omnixys/contracts-ts@3.3.0(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2)))(fastify@5.11.0)(graphql@16.14.2)(rxjs@7.8.2)
       '@omnixys/contracts-ts':
-        specifier: ^3.2.3
-        version: 3.2.3(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))
+        specifier: ^3.3.0
+        version: 3.3.0(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))
       '@semantic-release/changelog':
         specifier: ^6.0.3
         version: 6.0.3(semantic-release@25.0.8(typescript@5.9.3))
@@ -340,21 +340,21 @@ packages:
   '@octokit/types@16.0.0':
     resolution: {integrity: sha512-sKq+9r1Mm4efXW1FCk7hFSeJo4QKreL/tTbR0rz/qx/r1Oa2VV83LTA/H/MuCOX7uCIJmQVRKBcbmWoySjAnSg==}
 
-  '@omnixys/context-ts@3.0.2':
-    resolution: {integrity: sha512-pDnqYLEWQfNA2WSpkgeHDc7COa00S1G5htsmo2G/BKSbIxu25ysfEM2jbj/taUITdTDGw69Hj0fbvB6S0T/fog==, tarball: https://npm.pkg.github.com/download/@omnixys/context-ts/3.0.2/70140e960f0f0b92866a998e599a86acb430632d}
+  '@omnixys/context-ts@3.1.1':
+    resolution: {integrity: sha512-HAXTrWUtBAwnTQcJxaM0vEMH2Emcb6Auh8tLgJarVwpNQiRuzrGq/XawE0iZzD6H9+gAgBIu9+GkCak8ddvZmA==, tarball: https://npm.pkg.github.com/download/@omnixys/context-ts/3.1.1/72d414567467e204d2ded654f4a56c665c95e9b1}
     engines: {node: '>=20'}
     peerDependencies:
       '@fastify/cookie': ^11.0.0
       '@nestjs/common': ^10.0.0 || ^11.0.0
       '@nestjs/core': ^10.0.0 || ^11.0.0
       '@nestjs/graphql': ^13.2.4
-      '@omnixys/contracts-ts': ^3.2.3
+      '@omnixys/contracts-ts': ^3.3.0
       fastify: ^5.8.4
       graphql: ^16.13.2
       rxjs: ^7.8.2
 
-  '@omnixys/contracts-ts@3.2.3':
-    resolution: {integrity: sha512-wSrkDZmP8/v3T6CPu9bm0MeN1ctZuKXg4cQUCfGfrk4EYsvRWalS3OJ0prr5fF9ftwCKvduPJlEyvjKRV8fRRg==, tarball: https://npm.pkg.github.com/download/@omnixys/contracts-ts/3.2.3/36558774f031d4c4e6768ae20c37385f1ae7ac61}
+  '@omnixys/contracts-ts@3.3.0':
+    resolution: {integrity: sha512-uZHi/aof08yn8iDNuRuTlyGaCcD5o+FEmlrKDommK5R/H3dcQbYIikJJmuz1qpCTWpSB+BL8g7ub+xR4Ynk08Q==, tarball: https://npm.pkg.github.com/download/@omnixys/contracts-ts/3.3.0/a43023c35d9aeb32c9916eb1313a05eb9320a549}
     engines: {node: '>=20'}
     peerDependencies:
       '@nestjs/common': ^11.1.27
@@ -2333,20 +2333,20 @@ snapshots:
     dependencies:
       '@octokit/openapi-types': 27.0.0
 
-  '@omnixys/context-ts@3.0.2(@fastify/cookie@11.1.2)(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/graphql@13.4.2(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(graphql@16.14.2)(reflect-metadata@0.2.2))(@omnixys/contracts-ts@3.2.3(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2)))(fastify@5.11.0)(graphql@16.14.2)(rxjs@7.8.2)':
+  '@omnixys/context-ts@3.1.1(@fastify/cookie@11.1.2)(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/graphql@13.4.2(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(graphql@16.14.2)(reflect-metadata@0.2.2))(@omnixys/contracts-ts@3.3.0(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2)))(fastify@5.11.0)(graphql@16.14.2)(rxjs@7.8.2)':
     dependencies:
       '@fastify/cookie': 11.1.2
       '@nestjs/common': 11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core': 11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/graphql': 13.4.2(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.28(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))(reflect-metadata@0.2.2)(rxjs@7.8.2))(graphql@16.14.2)(reflect-metadata@0.2.2)
-      '@omnixys/contracts-ts': 3.2.3(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))
+      '@omnixys/contracts-ts': 3.3.0(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))
       fastify: 5.11.0
       geoip-lite: 1.4.10
       graphql: 16.14.2
       rxjs: 7.8.2
       ua-parser-js: 1.0.41
 
-  '@omnixys/contracts-ts@3.2.3(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))':
+  '@omnixys/contracts-ts@3.3.0(@nestjs/common@11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2))':
     dependencies:
       '@nestjs/common': 11.1.28(reflect-metadata@0.2.2)(rxjs@7.8.2)
       zod: 4.4.3
