@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.3](https://github.com/omnixys/http-ts/compare/v1.0.2...v1.0.3) (2026-08-24)
+
+### Context
+
+* **Context:** update dependency ([](https://github.com/omnixys/http-ts/commit/c3b76021782970b8fc5940ecae1412cbb32d306f))
+
 ## [1.0.2](https://github.com/omnixys/http-ts/compare/v1.0.1...v1.0.2) (2026-08-24)
 
 ### Agent
