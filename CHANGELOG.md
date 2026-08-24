@@ -3,6 +3,16 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.2](https://github.com/omnixys/http-ts/compare/v1.0.1...v1.0.2) (2026-08-24)
+
+### Agent
+
+* **Agent:** add repository development instructions ([](https://github.com/omnixys/http-ts/commit/7cb376c239b23f17f4762594e367234bc457bdff))
+
+### Observability
+
+* **Observability:** update dependency ([](https://github.com/omnixys/http-ts/commit/b0549b181aeb86b15d43eacc9e53da0c15de6817))
+
 ## [1.0.1](https://github.com/omnixys/http-ts/compare/v1.0.0...v1.0.1) (2026-08-01)
 
 ### Deps
