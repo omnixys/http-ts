@@ -25,14 +25,14 @@
   "peerDependencies": {
     "@nestjs/common": "^10 || ^11",
     "@nestjs/core": "^10 || ^11",
-    "@omnixys/context-ts": "^3.2.1",
-    "@omnixys/contracts-ts": "^3.3.0"
+    "@omnixys/context-ts": "^3.2.2",
+    "@omnixys/contracts-ts": "^3.4.0"
   },
   "devDependencies": {
     "@nestjs/common": "^11.1.28",
     "@nestjs/core": "^11.1.28",
-    "@omnixys/context-ts": "^3.2.1",
-    "@omnixys/contracts-ts": "^3.3.0",
+    "@omnixys/context-ts": "^3.2.2",
+    "@omnixys/contracts-ts": "^3.4.0",
     "@types/node": "^26.1.2",
     "rxjs": "^7.8.2",
     "@semantic-release/changelog": "^6.0.3",
