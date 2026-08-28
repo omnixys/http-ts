@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [1.0.4](https://github.com/omnixys/http-ts/compare/v1.0.3...v1.0.4) (2026-08-28)
+
+### Deps
+
+* **Deps:** update contracts-ts ([](https://github.com/omnixys/http-ts/commit/a5e200400c5b329727407d8ca2e5c69fa88b0903))
+
 ## [1.0.3](https://github.com/omnixys/http-ts/compare/v1.0.2...v1.0.3) (2026-08-24)
 
 ### Context
