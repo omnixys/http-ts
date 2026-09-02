@@ -4,7 +4,10 @@
   "description": "Safe HTTP error envelopes and NestJS exception mapping for Omnixys services",
   "type": "module",
   "private": false,
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@11.24.0",
+  "engines": {
+    "node": ">=26.8.1 <27"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -25,25 +28,25 @@
   "peerDependencies": {
     "@nestjs/common": "^10 || ^11",
     "@nestjs/core": "^10 || ^11",
-    "@omnixys/context-ts": "^3.2.2",
-    "@omnixys/contracts-ts": "^3.4.0"
+    "@omnixys/context-ts": "^4.0.2",
+    "@omnixys/contracts-ts": "^4.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
     "@nestjs/common": "^11.1.28",
     "@nestjs/core": "^11.1.28",
-    "@omnixys/context-ts": "^3.2.2",
-    "@omnixys/contracts-ts": "^3.4.0",
-    "@types/node": "^26.1.2",
-    "rxjs": "^7.8.2",
+    "@omnixys/context-ts": "^4.0.2",
+    "@omnixys/contracts-ts": "^4.0.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^12.0.9",
     "@semantic-release/npm": "^13.1.5",
     "@semantic-release/release-notes-generator": "^14.1.1",
-    "semantic-release": "^25.0.8",
-    "@commitlint/cli": "^20.5.3",
-    "@commitlint/config-conventional": "^20.5.3",
+    "@types/node": "^26.1.2",
+    "rxjs": "^7.8.2",
+    "semantic-release": "^25.0.9",
     "typescript": "^5.9.3"
   }
 }

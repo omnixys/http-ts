@@ -9,7 +9,7 @@
 
 - Kind: Shared Package
 - Package: `@omnixys/http-ts` (version: 1.0.1)
-- Runtime: Node >=20 (pnpm >=10.33.0)
+- Runtime: Node >=26.8.1 (pnpm >=11.24.0)
 - Description: Omnixys HTTP helpers for TypeScript.
 - Architecture: src/ HTTP helpers
 - Database: n/a; Migrations: n/a
