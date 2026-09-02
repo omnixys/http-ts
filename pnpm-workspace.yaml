@@ -1,0 +1,3 @@
+minimumReleaseAgeExclude:
+  - '@omnixys/context-ts@4.0.2'
+  - '@omnixys/contracts-ts@4.0.0'
