@@ -3,6 +3,26 @@
 All notable changes in this project will be documented in this file.
 
 
+## [2.0.0](https://github.com/omnixys/http-ts/compare/v1.0.4...v2.0.0) (2026-09-02)
+
+### Ci
+
+* **Ci:** add missing labeler and dependabot config to match contracts ([](https://github.com/omnixys/http-ts/commit/dc7fcea788eb53bef5d0d3b3a62ae5a51e569162))
+* **Ci:** add PR build check workflow for main ([](https://github.com/omnixys/http-ts/commit/4248a03d82cc03f894554bd5b2737b8c075d0ee6))
+* **Ci:** add npm registry auth before install in release workflow ([](https://github.com/omnixys/http-ts/commit/78dd150f5dc19965de9a509240dc390105201d68))
+
+### Deps
+
+* **Deps:** update omnixys deps ([](https://github.com/omnixys/http-ts/commit/45dbd745b592b2e5252bae65773fca1c13dcbfde))
+
+### Other
+
+* **Other:** Merge pull request #1 from omnixys/migration/uuid-v7 ([](https://github.com/omnixys/http-ts/commit/459d2a96725eeffd21154643faa3a7f1f2ccbfce)), closes [#1](https://github.com/omnixys/http-ts/issues/1)
+
+### Runtime
+
+* **Runtime:** require node 26.8.1 and pnpm 11.24.0 ([](https://github.com/omnixys/http-ts/commit/797e758b4eb586af614bc84643bcc24bd24f22ed))
+
 ## [1.0.4](https://github.com/omnixys/http-ts/compare/v1.0.3...v1.0.4) (2026-08-28)
 
 ### Deps

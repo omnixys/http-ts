@@ -1,6 +1,6 @@
 {
   "name": "@omnixys/http-ts",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Safe HTTP error envelopes and NestJS exception mapping for Omnixys services",
   "type": "module",
   "private": false,
