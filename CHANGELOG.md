@@ -3,6 +3,12 @@
 All notable changes in this project will be documented in this file.
 
 
+## [2.1.0](https://github.com/omnixys/http-ts/compare/v2.0.0...v2.1.0) (2026-09-04)
+
+### Log
+
+* **Log:** add logger ([](https://github.com/omnixys/http-ts/commit/8801da855843fe80e9fb34f6582d6c9f716c3b43))
+
 ## [2.0.0](https://github.com/omnixys/http-ts/compare/v1.0.4...v2.0.0) (2026-09-02)
 
 ### Ci
